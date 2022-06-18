@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "mdai-jon-cluster-sandbox-tfstate"
     prefix = "env/prod"
   }
 }
